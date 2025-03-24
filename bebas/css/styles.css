@@ -1,5 +1,6 @@
 body {
     margin:0;
+    margin-top: 40px;
     padding:0;
     /* background-image: url(https://beritanasional.com/storage/2024/08/pss-sleman-disanksi-minus-3-poin-di-liga-1-20242025-ternyata-karena-hal-ini-13082024-152727.jpg); */
     /* background-image: url(https://img.okezone.com/infografis/2025/02/17/559/784352/cristiano-ronaldo-akan-berkunjung-ke-kupang-indonesia_qt6ozI3bbD.jpg); */
@@ -10,7 +11,7 @@ body {
   
   .judul {
     font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-size: 20px;
     color: black;
     text-align: center;
   }
@@ -27,13 +28,13 @@ body {
       text-align: center;
   } */
   
-  .img {
+  img {
     padding-top: 15px;
     padding-bottom: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200;
+    width: 150px;
   }
   
   .list_isi li {
@@ -65,6 +66,12 @@ body {
     border: 1px solid black;
     border-collapse: collapse;
     padding-right: 25px;
+  }
+
+  #container{
+    display: grid;
+    place-items: center;
+
   }
   
   td {

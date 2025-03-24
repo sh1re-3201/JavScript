@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
-    <script src="/bebas/js/script.js"></script>
-    <link rel="stylesheet" href="/bebas/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <label>Nama:</label>
-    <input type="text">
+    <table align="center" cellpadding="8" style="width: 50%;" id="table">
+        <tr>
+            <td>
+                <img src="images/default-profile-picture-male-icon.png" alt="default-profile-picture-male-icon">
+                 <h2 class="judul">Anugrah Frumensius Gansalangi</h2>
+                 <h2 class="judul">235314091</h2>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="container">
+                    <form>
+                        <label for="username">Nama: </label>
+                        <input style="margin-left: 77.35px;" type="text" name="Nama" id="username" placeholder="Masukkan Nama">
+                        <br>
+                        <label for="pilihanCount">Jumlah Pilihan:</label>
+                        <input style="margin-left: 20px;" type="number" name="pilihanCount" id="pilihanCount" placeholder="Masukkan Jumlah Pilihan">
+                        <br>
+                        <button type="button" id="OK">OK</button>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="js/script.js"></script>
 </body>
 </html>
