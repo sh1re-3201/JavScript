@@ -1,0 +1,79 @@
+body {
+    margin:0;
+    padding:0;
+    /* background-image: url(https://beritanasional.com/storage/2024/08/pss-sleman-disanksi-minus-3-poin-di-liga-1-20242025-ternyata-karena-hal-ini-13082024-152727.jpg); */
+    /* background-image: url(https://img.okezone.com/infografis/2025/02/17/559/784352/cristiano-ronaldo-akan-berkunjung-ke-kupang-indonesia_qt6ozI3bbD.jpg); */
+    background-image: url("/images/background.jpg");
+    background-position:center;
+    background-size: 180px;
+  }
+  
+  .judul {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+  
+  .subjudul {
+    font-size: 16px;
+    text-align: center !important;
+    font-weight: 100;
+    line-height: 22px;
+  }
+  
+  
+  /* .textCenter {
+      text-align: center;
+  } */
+  
+  .img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200;
+  }
+  
+  .list_isi li {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 13px;
+    color: black;
+  }
+  
+  .content {
+      max-width: 800px;
+      padding: 20px;
+      margin: 0 auto;
+      border-left: 3px solid;
+      border-right: 3px solid;
+      background-color: #fff;
+  }
+  
+  .warna_warni{
+    background-image: linear-gradient(to right, red, 
+    orange, yellow, green, blue, indigo, violet); /*to create the gradient*/
+  
+    -webkit-background-clip: text; /*to specify that the gradient only applies to the text*/
+    color: transparent; /*to make the text transparent so the gradient could be seen*/
+  }
+  
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 25px;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: justify;
+  }
+  
+  p {
+    text-align: right;
+  }
+  
