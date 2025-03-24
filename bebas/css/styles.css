@@ -2,9 +2,8 @@ body {
     margin:0;
     margin-top: 40px;
     padding:0;
-    /* background-image: url(https://beritanasional.com/storage/2024/08/pss-sleman-disanksi-minus-3-poin-di-liga-1-20242025-ternyata-karena-hal-ini-13082024-152727.jpg); */
-    /* background-image: url(https://img.okezone.com/infografis/2025/02/17/559/784352/cristiano-ronaldo-akan-berkunjung-ke-kupang-indonesia_qt6ozI3bbD.jpg); */
-    background-image: url("/images/background.jpg");
+    /* background-image: url("/images/background.jpg"); */
+    background-color: bisque;
     background-position:center;
     background-size: 180px;
   }
